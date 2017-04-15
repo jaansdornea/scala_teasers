@@ -40,7 +40,7 @@ object TreeTraversals extends App {
     traverse(Some(root))
   }
   
-  println(preorder(initTestTree()))
+  println(s"preorder traversal: ${preorder(initTestTree())}")
 
   // traversal 2> inorder
   /*
@@ -66,7 +66,7 @@ object TreeTraversals extends App {
     traverse(Some(root))
   }
   
-  println(inorder(initTestTree()))
+  println(s"inorder traversal of tree: ${inorder(initTestTree())}")
 
   // traversal 3> postorder
   /*
@@ -87,6 +87,6 @@ object TreeTraversals extends App {
     traverse(Some(root))
   }
 
-  println(postorder(initTestTree()))
+  println(s"postorder traversal of tree: ${postorder(initTestTree())}")
   
 }
